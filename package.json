@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "eslint": "^8.53.0"
+  },
+  "dependencies": {
+    "nvm": "^0.0.4"
+  },
+  "name": "javascript-estudos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "export DEBUG=livro_nodejs:*&&nodemon server/bin/www",
+    "tes": "NODE_OPTIONS=--experimental-vm-modules jest server/**/*.test.js/**/*.test.js --coverage --forceExit --detectOpenHandles", 
+    "forrest": "echo 'Run, Forrest, run!'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
